@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="数独">
+
+<title>数独网页版</title>
+<style type="text/css">
+
+
+
+#okBtn{
+	background:rgb(6, 31, 151);
+	color: #fff;
+
+
+	width:100px;
+
+
+	padding: 10px 30px;
+	border:5px solid #fff;
+	border-radius:50px;
+
+	outline:none;
+	cursor:pointer;
+}
+
+#start{
+	
+	width:100%;
+   display:none;
+	margin: -150px 0 0 0;
+	
+	text-align:center;
+	color:white;
+
+	
+	position: absolute;
+	top:50%;
+	left:0;
+}
+
+#gname{
+font-size:50px;
+	font-weight:bold;
+		line-height:70px;
+}
+
+</style>
+<script>
+var init_num=30;
+var ok_time=3000;
+</script>
+</head>
+<body bgcolor="f0f0f7">
+
+<div style="text-align:center">
+
+<script async id=ggad 
+     crossorigin="anonymous"></script>
+<!-- score -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-2872916894005511"
+     data-ad-slot="5044564772"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+
+<a href="../" >返回</a>
+
+<center>
+ 
+
+<div >
+
+
+空格数<input type="number" id="knum" style="width:3rem;text-align:center"></input>
+
+<input type="button"  value="开始" onclick="start()"></input>
+</div>
+
+<div>
+<canvas id="canA"></canvas>
+</div>
+<div style="margin-top:5px;">
+<canvas id="canB" ></canvas>
+</div>
+
+<div id="start">
+<div style="background:rgba(106,124,197);	padding: 10px 0 20px;">
+<div id=gname style="margin-top:0px;">欢迎</div>
+
+
+<input id="okBtn" type="button" value="确定" onclick="ok();">
+
+
+<div style="margin-top:30px;">
+
+</div>
+
+</div>
+
+</div>
+
+
+<!--div style="position:absolute;right:0;width:50px;top:40px">
+ad
+</div-->
+
+
+<br><br>
+<div style="text-align: left;width:85%;padding:20px;">
+
+数独规则：格子数为9*9，填入值为1到9的数字。每一行、每一列不能有重复的数字；每一个九宫格内不能有重复的数字。当所有空格都填满时为成功。
+<br><br>
+点击（方格内的或下方的）黑色数字来填入相应的数字。填入的数字为绿色，重复点击则删除。橙色为已完成数字。
+
+	<br><br>
+设置空格数调节难度。空格越多难度越高。点击按钮新开一局。
+<br><br>
+
+</div>
+<br>
+<hr size=1 width="85%">
+<br>
+&copy; minesweeper.cn
+<br>
+<br>
+<br>
+</center>
+<script src="shudu.1.3.js"></script>
+<script>
+$("ggad").src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2872916894005511";
+</script>
+</body>
+</html>
