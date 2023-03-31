@@ -1,16 +1,38 @@
-<script>
-     var domain = "zsxb2468.f3322.net:16070";
-     //得到 https://zsxb2468.f3322.net:16070/XXXXX
-     var src = window.location.href;
- 
-     //得到 https
-     var prtc = src.substring(0, src.indexOf(':'));
- 
-     //得到 /XXXXX
-     //indexOf 的第二个参数是开始查找的位置
-     var target = src.substring(src.indexOf('/', src.indexOf(':') + 3));
- 
-     //组合在一起
-     //https://windliang.wang/XXXXX
-     window.location.href = prtc + "://" + domain + target;
- </script>
+<!DOCTYPE HTML>
+<html manifest="manifest.mf">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta id="viewport" name="viewport" content="width=480,user-scalable=no,target-densitydpi=high-dpi" />
+		<script type="text/javascript">document.write('<script type="text/javascript" src="../resource/js/resource_loader.js?ver='+Math.random()+'"><\/script>');</script>
+		<script data-main="js/main" src="require.js"></script>
+		<title>一个都不能死</title>
+		<style type="text/css">
+			body{
+		        margin:0px;
+		        padding:0px;
+		        overflow: hidden;
+		    }
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			callLoading('open');	 
+			setTimeout(function() {
+				callLoading('close');
+			}, 3000);
+		</script>
+		<div style="text-align:center;">
+			<canvas id="linkScreen">
+				很遗憾，您的浏览器不支持HTML5，请使用支持HTML5的浏览器。
+			</canvas>
+		</div>
+	</body>
+ <div style="display:none;">
+<script src="http://s4.cnzz.com/stat.php?id=5954484&web_id=5954484" language="JavaScript"></script>
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F2207c39aecfe7b9b0f144ab7f8316fad' type='text/javascript'%3E%3C/script%3E"));
+</script>
+	</div>
+</html>
